@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/office-js/extended-manifest.schema.json",
+  "actions": [
+    {
+      "id": "ToggleNavigator",
+      "type": "ExecuteFunction",
+      "name": "Show or hide the Formula Navigator pane"
+    },
+    {
+      "id": "ShowExplorer",
+      "type": "ExecuteFunction",
+      "name": "Open Formula Navigator on the selected cell (Explore tab, keyboard focus)"
+    },
+    {
+      "id": "TracePrecedentsWindow",
+      "type": "ExecuteFunction",
+      "name": "Open a floating Precedents window for the selected cell"
+    },
+    {
+      "id": "TraceDependentsWindow",
+      "type": "ExecuteFunction",
+      "name": "Open a floating Dependents window for the selected cell"
+    }
+  ],
+  "shortcuts": [
+    {
+      "action": "ToggleNavigator",
+      "key": {
+        "default": "Ctrl+Shift+Y"
+      }
+    },
+    {
+      "action": "ShowExplorer",
+      "key": {
+        "default": "Ctrl+Shift+E"
+      }
+    },
+    {
+      "action": "TracePrecedentsWindow",
+      "key": {
+        "default": "Ctrl+Shift+C"
+      }
+    },
+    {
+      "action": "TraceDependentsWindow",
+      "key": {
+        "default": "Ctrl+Shift+D"
+      }
+    }
+  ]
+}
